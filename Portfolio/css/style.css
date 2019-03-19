@@ -1,2 +1,30 @@
-/* GLOBAL */
+* {
+	margin: 0;
+	padding: 0;
+}
 
+.resize {
+	width: 200px;
+	height: auto;
+}
+
+.footer {
+	background: #343A40;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+}
+
+.fab {
+	color: #343A40;
+}
+
+.fab:hover {
+	color: #343A40;
+	opacity: 0.7;
+}
+
+footer {
+	height: 50px;
+	color: black;
+}

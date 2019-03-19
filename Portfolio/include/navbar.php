@@ -6,13 +6,19 @@
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav">
       <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Features</a>
+        <a class="nav-link" href="#mijnWerk.php">Mijn werk</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Pricing</a>
+        <a class="nav-link" href="mijnSkills.php">Mijn skills</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="mijnProjecten.php">Mijn projecten</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="overMij.php">Over mij</a>
       </li>
     </ul>
   </div>
