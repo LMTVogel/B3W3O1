@@ -8,34 +8,11 @@
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-
-	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-	<div class="container">
-	  <a class="navbar-brand" href="#">Luuk Vogel</a>
-	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-	    <span class="navbar-toggler-icon"></span>
-	  </button>
-	  <div class="collapse navbar-collapse" id="navbarNav">
-	    <ul class="navbar-nav">
-	      <li class="nav-item active">
-	        <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
-	      </li>
-	      <li class="nav-item">
-	        <a class="nav-link" href="#mijnWerk.php">Mijn werk</a>
-	      </li>
-	      <li class="nav-item">
-	        <a class="nav-link" href="mijnSkills.php">Mijn skills</a>
-	      </li>
-	      <li class="nav-item">
-	        <a class="nav-link" href="mijnProjecten.php">Mijn projecten</a>
-	      </li>
-	      <li class="nav-item">
-	        <a class="nav-link" href="overMij.php">Contact</a>
-	      </li>
-	    </ul>
-	  </div>
-	</div> 
-	</nav>
+	
+	<?php 
+		include 'include/navbar.php';
+		include 'include/slider.php';
+	 ?>
 	
 	<div class="jumbotron jumbotron-fluid">
 	  <div class="container">
@@ -56,31 +33,14 @@
 		    <div class="col-sm-3">
 		    	<p>- Luuk Vogel</p>
 		      	<p>- 17 jaar oud. 27-08-2001.</p>
-		      	<p><a href="#" class="fab fa-linkedin fa-4x"></a></p>
-		      	<p><a href="#" class="fab fa-github-square fa-4x"></a></p>
 		    </div>
 		  </div>
 		</div>
 	</section>
 
-	<div class="container-fluid">
-	    <div class="text-center text-light bg-dark" id="info">
-	        <div class="container">
-	            <h5 class="pt-4">Ik ben ook te vinden op:</h1>
-	            <a class="btn btn-outline-light mt-3" href="https://linkedin.com/in/rogiervdgaag/">
-	                <i class="fab fa-linkedin-in"></i>
-	            </a>
-	            <a class="btn btn-outline-light mt-3" href="https://github.com/RMvanderGaag">
-	                <i class="fab fa-github"></i>
-	            </a>        
-	        </div>
-	    </div>
-	    <footer class="container-fluid text-center text-light">
-	        <div class="container">
-	            <p class="pt-3 mb-0">© 2019 - Luuk Vogel.</p>
-	        </div>
-	    </footer>
-	</div>
+	<?php 
+		include 'include/footer.php'
+	 ?>
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>

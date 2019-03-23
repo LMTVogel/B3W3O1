@@ -1,36 +1,26 @@
-
-<div id="demo" class="carousel slide" data-ride="carousel">
-
-  <!-- Indicators -->
-  <ul class="carousel-indicators">
-    <li data-target="#demo" data-slide-to="0" class="active"></li>
-    <li data-target="#demo" data-slide-to="1"></li>
-    <li data-target="#demo" data-slide-to="2"></li>
-  </ul>
-
-  <!-- The slideshow -->
-
-  <div style="position: relative;" class="container">
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="img/eiland.jpeg" alt="Eiland">
+        <img class="d-block w-100" src="https://picsum.photos/1200/500?image=1067" alt="First slide">
       </div>
       <div class="carousel-item">
-        <img src="img/london.jpeg" alt="London">
+        <img class="d-block w-100" src="https://picsum.photos/1200/500?image=1015" alt="Second slide">
       </div>
       <div class="carousel-item">
-        <img src="img/london2.jpeg" alt="London">
+        <img class="d-block w-100" src="https://picsum.photos/1200/500?image=1011" alt="Third slide">
       </div>
     </div>
-  
-
-  <!-- Left and right controls -->
-
-    <a class="carousel-control-prev" href="#demo" data-slide="prev">
-      <span class="carousel-control-prev-icon"></span>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
     </a>
-    <a class="carousel-control-next" href="#demo" data-slide="next">
-      <span class="carousel-control-next-icon"></span>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
     </a>
   </div>
-</div>

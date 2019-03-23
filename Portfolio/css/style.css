@@ -8,23 +8,29 @@
 	height: auto;
 }
 
-.footer {
+footer {
 	background: #343A40;
+	text-align: center;
+	color: white;
+	padding-bottom: 32px;
+	margin-top: 20px;
+}
+
+.footer2 {
+	background: #122932;
 	color: white;
 	text-align: center;
-	text-decoration: none;
+	padding-bottom: 10px;
+	padding-top: 22px;
 }
 
-.fab {
-	color: #343A40;
+.date {
+	color: white;
 }
 
-.fab:hover {
-	color: #343A40;
-	opacity: 0.7;
-}
-
-footer {
-	height: 50px;
-	color: black;
+.overMij {
+	text-align: center;
+	background: #E9ECEF;
+	padding: 20px;
+	margin-bottom: 20px;
 }
