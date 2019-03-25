@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pizza van Vogel</title>
+	<meta charset="utf-8">
+</head>
+<body background="pizza.jpg">
+
+	<h1>Pizza van Vogel</h1>
+	
+	<script type="text/javascript">
+		
+		//Luuk Vogel. Opdracht: Pizza Calculator
+		const pizzaSmall = 4;
+		const pizzaMedium = 7;
+		const pizzaLarge = 11;
+
+        //Laat een pop-up message zien
+		alert('Welkom bij Pizza van Vogel')
+
+        //Laat een pop-up message zien
+		alert('Pizza small: € 4,50. Pizza medium: € 7,00. Pizza large: € 11,50')
+
+        //Laat een message zien waar je je afmeting in moet voeren
+		var pizzaSize = prompt ('Welke afmeting pizza wilt u? U kunt kiezen uit small, medium en large.');
+
+        //Laat een message zien waar je de hoeveelheid pizza's in moet voeren
+		var aantalPizza = prompt ("Hoeveel pizza's wilt u?");
+
+        //Zorgt ervoor dat de ingevoerde afmeting keer de prijs word gedaan. Zo kom je op de prijs uit.
+		if (pizzaSize == 'small') {
+			document.write(aantalPizza + ' ' + "small pizza('s)" + ' ' + "is" + ' ' + '&euro;' + pizzaSmall*aantalPizza);
+		
+		}else if (pizzaSize == 'medium') {
+			document.write(aantalPizza + ' ' + "medium pizza('s)" + ' ' + "is" + ' ' + '&euro;' + pizzaMedium*aantalPizza);
+		
+		}else if (pizzaSize == 'large') {
+			document.write(aantalPizza + ' ' + "large pizza('s)" + ' ' + "is" + ' ' + '&euro;' + pizzaLarge*aantalPizza)
+		}
+
+        //Als er geen small, medium of large word ingevoerd komt dit in beeld te staan
+		else {
+			document.write("Weet u zeker dat u small, medium of large heeft ingevoerd? Waarschijnlijk niet want anders stond dit er niet :D.")
+		}
+
+
+	</script>
+
+</body>
+</html>
