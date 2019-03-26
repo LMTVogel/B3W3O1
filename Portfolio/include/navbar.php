@@ -19,7 +19,7 @@
           <a class="nav-link" href="mijnSkills.php">Mijn skills</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="overMij.php">Contact</a>
+          <a class="nav-link" href="contact.php">Contact</a>
         </li>
       </ul>
     </div>
